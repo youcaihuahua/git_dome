@@ -14,4 +14,7 @@ class Student extends  Person{
     public void setScore(int score) {this.score = score;}
     @Override
     public void introduce() {System.out.println("名字 "+super.getName()+"年龄 "+super.getAge()+"学号 "+sno + "成绩 "+score);}
+    void work(){
+        System.out.println("学生在学习");
+    }
 }

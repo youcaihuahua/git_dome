@@ -11,4 +11,7 @@ public Person(String a,int b){name = a;age = b;}
     public void setName(String a){name  = a;}
     public int getAge(){return age;}
     public void setAge(int b){age = b;}
+    void work(){
+        System.out.println("人在工作");
+    }
 }
